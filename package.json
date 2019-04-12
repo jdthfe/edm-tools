@@ -1,0 +1,29 @@
+{
+  "name": "edm-tools",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "colorful": "^2.1.0",
+    "commander": "^2.20.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-typescript": "^5.0.1",
+    "merge2": "^1.2.3",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.3"
+  },
+  "bin": {
+    "edm-tools": "./bin/run"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
+}
